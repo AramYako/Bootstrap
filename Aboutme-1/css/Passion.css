@@ -1,0 +1,12 @@
+
+#passion-section .font-awesome-icon{
+    padding:5px;
+    color: #fff;
+    background-color: aqua;
+    border-radius: 5px;
+
+}
+
+#passion-head-section h3, #passion-head-section p,#passion-head-section h1, #passion-section h3, #passion-section p{
+    color:white
+} 

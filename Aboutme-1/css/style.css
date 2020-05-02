@@ -1,0 +1,104 @@
+*{
+padding:0;
+margin:0;
+}
+
+body{
+    position: relative;
+    overflow: scroll;
+}
+
+.header-nav .navbar-brand,.navbar-light .navbar-nav .nav-link{
+color: white !important;
+}
+
+
+#main-nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar{
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.8;
+}
+
+.header-nav{
+    z-index:1;
+}
+
+#LoopLabNav{
+    margin-right: 40px;
+}
+
+#home-section{
+    background:url(../img/Social-interaction.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.dark-overlay h1{
+    color:white
+}
+
+.dark-overlay .d-flex{
+    color:white
+}
+
+.dark-overlay{
+
+    position: inherit;
+    width: 100%;
+    min-height: 80vh;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner{
+    padding-top: 15vh;
+}
+
+#home-section{
+    width: 100%;
+    min-height: 80vh;
+}
+
+
+.card-form{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#main-footer h3,#main-footer p{
+    color:white;
+} 
+
+
+
+
+/*Explore section */
+
+#explore-section{
+    background-color: lightslategray !important;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .home-inner .desc-inner{
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+
+
+
+
+
+     
+
+  

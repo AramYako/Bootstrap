@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8769a2c7eb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Message.css">
+    <link rel="stylesheet" href="css/explore.css">
+    <link rel="stylesheet" href="css/passion.css">
+    <link rel="stylesheet" href="css/share.css">
+    <script src="js/site.js"></script>
+    <title>Bootstrap theme</title>
+</head>
+<body  data-spy="scroll" data-target="#main-nav" id="home">
+
+        <nav id="main-nav" class="navbar navbar-expand-sm navbar-light bg-dark header-nav">
+            <a class="navbar-brand" href="index.html">Aram</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#LoopLabNav" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="LoopLabNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#explore-head-section">Explore</a>
+                </li>
+    
+                <li class="nav-item">
+                    <a class="nav-link" href="#passion-head-section">Create</a>
+                </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="#share-head-section">Share</a>
+                  </li>
+                </ul>
+     
+            </div>
+          </nav>
+ 
+    
+
+    <!-- HOME SECTION-->
+  
+        <header id="home-section">
+            <div class="dark-overlay">
+                <div class="home-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 d-sm-none d-none d-md-block desc-inner">
+                                <h1 class="display-4">
+                                    Get to know <strong> Aram Yako </strong>
+                                </h1>
+            
+                                <div class="d-flex">
+                                    <div class="p-4 align-self-start">
+                                        <i class="fas fa-check fa-2x"></i>
+                                    </div>
+                                    <div class="p-4 justify-content-end">
+                                       Jr Developer
+                                    </div>
+            
+                                </div>
+                                <div class="d-flex">
+                                    <div class="p-4 align-self-start">
+                                        <i class="fas fa-check fa-2x"></i>
+                                    </div>
+                                    <div class="p-4 justify-content-end">
+                                        Motivated
+                                    </div>
+            
+                                </div>
+                                <div class="d-flex">
+                                    <div class="p-4 align-self-start">
+                                        <i class="fas fa-check fa-2x"></i>
+                                    </div>
+                                    <div class="p-4 justify-content-end">
+                                        Strive to improve
+                                    </div>
+            
+                                </div>
+            
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card bg-primary text-center card-form" style="width: 18rem;">
+                                    <div class="card-body">
+                                        <h3>Sign Up Today</h3>
+                                        <p>Please fill out this form to register</p>
+                                        <form>
+                                            <div class="form-group">
+                                                <input id="inpaaa" type="text" class="form-control form-control-lg" placeholder="Username">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control form-control-lg" placeholder="Email">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control form-control-lg" placeholder="Password">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control form-control-lg" placeholder="Confirm Password">
+                                            </div>
+                                            <input type="button" value="Submit" id="submit-btn" class="btn btn-outline-light btn-block" placeholder="Send">   
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <!-- ALERT -->
+    <div class="alert alert-success alert-dismissible fade show" id="alert-create-user"role="alert">
+        <strong>Hello User!</strong> This is just test-environment. No database exist!
+        <button  id="dismiss-alert" type="button" class="close" data-dismiss="" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+            </div>
+        </header>
+
+        <!--Explore Head-->
+        <section id="explore-head-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center py-5">
+                        <h1 class="display-4">Explore</h1>
+                        <p class="lead">Exploare about me</p>
+                        <a href="#explore-section" class="btn btn-outline-secondary">Find out more</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    
+<!--Explore SECTION-->
+    <section id="explore-section" class="bg-light text-muted py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/Developer.gif" class="img-fluid rounded-circle" alt="Responsive image">
+                </div>
+                <div class="col-md-6">
+                    <h3>Explore about me</h3>
+                    <p> My name is Aram Yako and I'm a .Net developer. I mainly develop in C#, Javascript, and SQL. My goal in tech is to become a full-stack developer in 3-5 years. 
+                    </p>
+                    <div class="d-flex">
+                        <div class="p-4">
+                            <i class="fab fa-angellist fa-2x font-awesome-icon"></i>
+                        </div>
+                        <div class="p-4">
+                            <p>.Net framework</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="p-4">
+                            <i class="fab fa-angellist fa-2x font-awesome-icon "></i>
+                        </div>
+                        <div class="p-4">
+                            <p>C#, SQL, JavaScript, Jquery</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+
+           <!--CREATE Head-->
+           <section id="passion-head-section" class="bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center py-5">
+                        <h1 class="display-4">Part goals</h1>
+                        <p class="lead">My current part goals to strive toward being a full-stack developer</p>
+                        <a href="#passion-section" class="btn btn-outline-light">Find out more</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!--CREATE SECTION-->
+    <section id="passion-section" class="py-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 order-2">
+                    <img src="img/Developer.gif" class="img-fluid rounded-circle" alt="Responsive image">
+                </div>
+                <div class="col-md-6 order-1">
+                    <h3>My Passions to master now</h3>
+                    <div class="d-flex">
+                        <div class="p-4">
+                            <i class="fab fa-angellist fa-2x font-awesome-icon"></i>
+                        </div>
+                        <div class="p-4">
+                            <p>TypeScript</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="p-4">
+                            <i class="fab fa-angellist fa-2x font-awesome-icon "></i>
+                        </div>
+                        <div class="p-4">
+                            <p>Angular</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="p-4">
+                            <i class="fab fa-angellist fa-2x font-awesome-icon "></i>
+                        </div>
+                        <div class="p-4">
+                            <p>.Net Core</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+        
+    <!--SHARE SECTION-->
+        <section id="share-section" class="bg-light text-muted py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/Developer.gif" class="img-fluid rounded-circle" alt="Responsive image">
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Contract information</h3>
+                        <p>
+                        </p>
+                        <div class="d-flex">
+                            <div class="p-4">
+                                <i class="fab fa-angellist fa-2x font-awesome-icon"></i>
+                            </div>
+                            <div class="p-4">
+                                <p>Email: Aramyako@hotmail.com</p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="p-4">
+                                <i class="fab fa-angellist fa-2x font-awesome-icon "></i>
+                            </div>
+                            <div class="p-4">
+                                <p>Mobile: +46 73 649 23 01</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--FOOTER-->
+
+        <footer id="main-footer" class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center py-4">
+                        <h3>Aram</h3>
+                        <p>Copyright &copy;<span id="year"></span></p>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact us</button>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+
+        <!--CONTACT MODAL-->
+<!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Contact us</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+              <label>Name</label>
+              <input class="form-control" placeholder="Name" />
+
+              <label>Email</label>
+              <input class="form-control" placeholder="Email" />
+
+              <label>Message</label>
+              <textarea class="form-control" placeholder="Message"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

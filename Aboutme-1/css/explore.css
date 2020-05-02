@@ -1,0 +1,12 @@
+
+#explore-section .font-awesome-icon{
+    padding:5px;
+    color: #fff;
+    background-color: aqua;
+    border-radius: 5px;
+
+}
+
+#explore-section h3, #explore-section p{
+    color:white
+} 

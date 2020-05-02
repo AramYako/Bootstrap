@@ -1,0 +1,12 @@
+
+#share-section .font-awesome-icon{
+    padding:5px;
+    color: #fff;
+    background-color: aqua;
+    border-radius: 5px;
+
+}
+
+#share-section h3, #share-section p{
+    color:black
+} 
